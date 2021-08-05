@@ -33,6 +33,7 @@ def cambiar_subs(videos, subs, dir):
         print("\n" + path_1 + "\n-->\n" + path_2 + "\n")
         os.rename(path_1, path_2)
 
+        
 if __name__ == "__main__":
     videos = get_elementos("videos")
     subs = get_elementos("subtítulos")
